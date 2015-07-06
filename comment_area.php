@@ -2,7 +2,7 @@
 
 define ( 'MYSQL_HOST', 'localhost' );
 define ( 'MYSQL_USER', 'root' );
-define ( 'MYSQL_PASS', '' );
+define ( 'MYSQL_PASS', 'navi' );
 define ( 'MYSQL_DATA', 'commentfunction' );
 
 $db_link = @mysql_connect (MYSQL_HOST, MYSQL_USER, MYSQL_PASS);
@@ -32,23 +32,23 @@ while ($data = mysql_fetch_array( $db_erg, MYSQL_ASSOC))
     echo "ID: ";
     echo $data['id'];
     echo "<br />";
- 
+
     echo "Name: ";
     echo $data['name'];
     echo "<br />";
- 
+
     echo "Email: ";
     echo $data['email'];
     echo "<br />";
- 
+
     echo "URL: ";
     echo $data['url'];
     echo "<br />";
- 
+
     echo "Date: ";
     echo $data['date'];
     echo "<br />";
- 
+
     echo "Comment: ";
     echo $data['comment'];
     echo "<br />";
