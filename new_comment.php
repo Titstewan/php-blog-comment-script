@@ -37,7 +37,7 @@ if ( isset($_POST['comment_field'])) {
   $sql .= " SET ";
   $sql .= " name ='". test_input($_POST['name']) ."', ";
   $sql .= " email ='". test_input($_POST['email']) ."', ";
-  $sql .= " url ='" . "', ";
+  $sql .= " url = '', ";
   $sql .= " date ='". date("Y-m-d H:i:s") ."', ";
   $sql .= " comment ='". test_input($_POST['comment_field']) ."' ";
 
