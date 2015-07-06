@@ -43,7 +43,7 @@ if ( isset($_POST['comment_field'])) {
 
   define ( 'MYSQL_HOST', 'localhost' );
   define ( 'MYSQL_USER', 'root' );
-  define ( 'MYSQL_PASS', 'navi' );
+  define ( 'MYSQL_PASS', '' );
   define ( 'MYSQL_DATA', 'commentfunction' );
 
   $db_link = @mysql_connect (MYSQL_HOST, MYSQL_USER, MYSQL_PASS);
